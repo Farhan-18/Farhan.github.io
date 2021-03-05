@@ -1,0 +1,405 @@
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  body {
+    min-height: 2000px;
+    background-color: #ffffff;
+  }
+  .jumbotron {
+    background-image: url(/img/Landing.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 520px;
+    position: relative;
+  }
+  .main h3 {
+    text-align: center;
+    padding-top: 5em;
+    color: white;
+    font-weight: 200;
+  }
+  .main .btn-home {
+    border-radius: 20px;
+    font-size: 15px;
+    position: relative;
+    left: 45%;
+    margin-top: 10px;
+  }
+  .navbar-brand {
+    font-size: 32px;
+    font-weight: 200;
+    font-family: "Viga";
+    position: relative;
+    left: 5%;
+    /* margin-left: 30px; */
+  }
+  .nav-link {
+    font-size: 16px;
+    font-weight: 200;
+    margin-right: 10px;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #ddd;
+    width: 40%;
+    margin: auto;
+    padding-top: 5px;
+    margin-bottom: -10px;
+  }
+  .btn-home1 {
+    font-size: 15px;
+    border-radius: 20px;
+    margin-right: 30px;
+  }
+  .main-content {
+    padding-top: 2em;
+  }
+  .main-content .profile {
+    width: 200px;
+  }
+  .main-content h3 {
+    text-align: left;
+  }
+  .main-content .img-profile {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main-content .text {
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  #feature {
+    padding-top: 3em;
+  }
+  #feature .text-gallery {
+    text-align: center;
+  }
+  #feature .figure {
+    margin-top: 10px;
+  }
+  #feature .figure-img {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #feature-next h3 {
+    text-align: center;
+  }
+  .figure-caption {
+    text-align: center;
+    font-weight: 500;
+  }
+  .progress {
+    position: relative;
+    left: 50%;
+  }
+  .progres-2 {
+    margin-top: 20px;
+  }
+  .progres-1 {
+    margin-top: 20px;
+  }
+  .progres-3 {
+    margin-top: 20px;
+  }
+  #contact {
+    padding-top: 2em;
+  }
+  #contact h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #contact form {
+    position: relative;
+    left: 50%;
+  }
+  .footer {
+    margin-top: 3em;
+    padding: 20px;
+    background-color: black;
+    color: #ddd;
+  }
+  .footer h3 {
+    text-align: center;
+    font-size: 16px;
+  }
+  .footer .text-footer {
+    font-size: 11px;
+    text-align: center;
+  }
+  .footer .text-footer a {
+    text-decoration: none;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+  .jumbotron {
+    background-image: url(/img/Landing.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 320px;
+    position: relative;
+  }
+  .main h3 {
+    text-align: center;
+    padding-top: 5em;
+    color: white;
+    font-weight: 500;
+  }
+  .main .btn-home {
+    /* border-radius: 20px; */
+    font-size: 14px;
+    position: relative;
+    left: 37%;
+    margin-top: 10px;
+  }
+  .navbar-brand {
+    font-size: 26px;
+    font-weight: 200;
+    position: relative;
+    font-family: "Viga";
+    /* left: 5%; */
+    /* margin-left: 30px; */
+  }
+  .nav-link {
+    font-size: 14px;
+    font-weight: 200;
+    /* margin-right: 10px; */
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .btn-home1 {
+    font-size: 11px;
+    border-radius: 20px;
+    /* margin-right: 30px; */
+  }
+  .main-content {
+    padding-top: 2em;
+  }
+  .main-content .profile {
+    width: 200px;
+  }
+  .main-content h3 {
+    text-align: left;
+  }
+  .main-content .img-profile {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main-content .text {
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  #feature {
+    padding-top: 4em;
+  }
+  #feature .text-gallery {
+    text-align: center;
+  }
+  #feature .figure {
+    margin-top: 10px;
+  }
+  #feature .figure-img {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #feature-next h3 {
+    text-align: center;
+  }
+  .figure-caption {
+    text-align: center;
+    font-weight: 500;
+  }
+  .progress {
+    position: relative;
+    /* left: 50%; */
+  }
+  .progres-2 {
+    margin-top: 20px;
+  }
+  .progres-1 {
+    margin-top: 20px;
+  }
+  .progres-3 {
+    margin-top: 20px;
+  }
+  #contact {
+    padding-top: 4em;
+  }
+  #contact h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #contact form {
+    position: relative;
+    /* left: 10%; */
+  }
+  .footer {
+    margin-top: 3em;
+    padding: 20px;
+    background-color: black;
+    color: #ddd;
+  }
+  .footer h3 {
+    text-align: center;
+    font-size: 16px;
+  }
+  .footer .text-footer {
+    font-size: 11px;
+    text-align: center;
+  }
+  .footer .text-footer a {
+    text-decoration: none;
+  }
+}
+
+/* TABLET */
+@media (max-width: 1200px) {
+  .jumbotron {
+    background-image: url(/img/Landing.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 320px;
+    position: relative;
+  }
+  .main h3 {
+    text-align: center;
+    padding-top: 5em;
+    color: white;
+    font-weight: 500;
+  }
+  .main .btn-home {
+    /* border-radius: 20px; */
+    font-size: 14px;
+    position: relative;
+    left: 45%;
+    margin-top: 20px;
+  }
+  .navbar-brand {
+    font-size: 32px;
+    font-weight: 200;
+    position: relative;
+    left: 5%;
+    font-family: "Viga";
+    /* margin-left: 30px; */
+  }
+  .nav-link {
+    font-size: 16px;
+    font-weight: 200;
+    /* margin-right: 10px; */
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .btn-home1 {
+    font-size: 16px;
+    border-radius: 20px;
+    /* margin-right: 30px; */
+  }
+  .main-content {
+    padding-top: 2em;
+  }
+  .main-content .profile {
+    width: 200px;
+  }
+  .main-content h3 {
+    text-align: left;
+  }
+  .main-content .img-profile {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main-content .text {
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  #feature {
+    padding-top: 5em;
+  }
+  #feature .text-gallery {
+    text-align: center;
+  }
+  #feature .figure {
+    margin-top: 10px;
+  }
+  #feature .figure-img {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #feature-next h3 {
+    text-align: center;
+  }
+  .figure-caption {
+    text-align: center;
+    font-weight: 500;
+  }
+  .progress {
+    position: relative;
+    /* left: 50%; */
+  }
+  .progres-2 {
+    margin-top: 20px;
+  }
+  .progres-1 {
+    margin-top: 20px;
+  }
+  .progres-3 {
+    margin-top: 20px;
+  }
+  #contact {
+    padding-top: 5em;
+  }
+  #contact h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #contact form {
+    position: relative;
+    /* left: 50%; */
+  }
+  .footer {
+    margin-top: 3em;
+    padding: 20px;
+    background-color: black;
+    color: #ddd;
+  }
+  .footer h3 {
+    text-align: center;
+    font-size: 16px;
+  }
+  .footer .text-footer {
+    font-size: 11px;
+    text-align: center;
+  }
+  .footer .text-footer a {
+    text-decoration: none;
+  }
+}
+
+/* @media (max-width: 1199.98px) { ... }
+ */
